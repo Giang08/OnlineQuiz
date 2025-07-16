@@ -1,0 +1,122 @@
+* {
+  font-family: "Crimson Text", serif;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  background: radial-gradient(circle at 50% 50%, #84a9ff, #f5f8ff);
+  margin: 0px; /*Xoa khoang trang toan trang*/
+  padding: 0px;
+}
+
+div.Menu {
+  display: flex;
+  flex-direction: column;
+  background-color: #758ae9;
+  width: 200px;
+  height: 100vh;
+  transition: width 0.5s ease;
+}
+
+h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+  margin: 0px;
+  height: 25vh;
+  padding: 25px;
+  color: black;
+  text-shadow: 0px 0px 20px black;
+  font-size: 25px;
+}
+
+.slot1 {
+  height: 25vh;
+  background: radial-gradient(circle at 50% 50%, #84a9ff, #f5f8ff);
+}
+
+a.tag {
+  display: flex;
+  align-items: center; /*giup can giua theo chieu ngang*/
+  justify-content: center; /*giup can giua theo chieu doc*/
+  font-size: 20px;
+  padding: 25px;
+  height: 25vh;
+  text-decoration: none;
+  color: gray;
+  background-color: #e4eaec;
+  text-align: center;
+}
+
+.active {
+  display: flex;
+  align-items: center; /*giup can giua theo chieu ngang*/
+  justify-content: center; /*giup can giua theo chieu doc*/
+  font-size: 20px;
+  padding: 25px;
+  height: 25vh;
+  text-decoration: none;
+  color: #4864e3;
+  text-align: center;
+  background-color: #f7fdff;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.index {
+  display: flex;
+  flex-direction: column;
+}
+
+.timkiem {
+  margin-top: 30px;
+  margin-left: 60px;
+}
+
+#find {
+  border: solid;
+  width: 100vh;
+  text-align: left;
+  padding: 6px;
+  border-radius: 100px;
+  font-style: italic;
+}
+
+p {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.noidung {
+  background-color: white;
+  color:#4864e3;
+  border-radius: 40px;
+  margin: 20px;
+  padding:20px;
+}
+
+.noidung li {
+  margin-bottom: 15px;
+}
+
+.noidung a {
+  text-decoration: none;
+  color: #4864e3;
+  font-style: italic;
+  font-size: 18px;
+}
+
+.noidung a:hover {
+  color: red;
+  transition: all 0.5s;
+}
+
+.Menu:hover{
+  width: 220px;
+  transition: all 0.5s;
+}
+
