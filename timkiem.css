@@ -14,22 +14,14 @@ div.Menu {
   display: flex;
   flex-direction: column;
   background-color: #758ae9;
-  width: 200px;
+  width: 30vw;
   height: 100vh;
   transition: width 0.5s ease;
 }
 
-h1 {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  text-align: center;
-  font-style: italic;
-  font-weight: bold;
-  margin: 0px;
-  height: 25vh;
-  padding: 25px;
-  color: black;
-  text-shadow: 0px 0px 20px black;
-  font-size: 25px;
+.Menu:hover {
+  width: 35vw;
+  transition: all 0.5s;
 }
 
 .slot1 {
@@ -37,25 +29,25 @@ h1 {
   background: radial-gradient(circle at 50% 50%, #84a9ff, #f5f8ff);
 }
 
-a.tag {
-  display: flex;
-  align-items: center; /*giup can giua theo chieu ngang*/
-  justify-content: center; /*giup can giua theo chieu doc*/
-  font-size: 20px;
-  padding: 25px;
-  height: 25vh;
-  text-decoration: none;
-  color: gray;
-  background-color: #e4eaec;
+h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
   text-align: center;
+  font-style: italic;
+  font-weight: bold;
+  line-height: 13vh;
+  margin: 0px;
+  padding: 40px;
+  color: black;
+  text-shadow: 0px 0px 20px black;
+  font-size: 40px;
 }
 
 .active {
   display: flex;
   align-items: center; /*giup can giua theo chieu ngang*/
   justify-content: center; /*giup can giua theo chieu doc*/
-  font-size: 20px;
-  padding: 25px;
+  font-size: 40px;
+  padding: 40px;
   height: 25vh;
   text-decoration: none;
   color: #4864e3;
@@ -65,13 +57,26 @@ a.tag {
   font-style: italic;
 }
 
+a.tag {
+  display: flex;
+  align-items: center; /*giup can giua theo chieu ngang*/
+  justify-content: center; /*giup can giua theo chieu doc*/
+  font-size: 40px;
+  padding: 40px;
+  height: 25vh;
+  text-decoration: none;
+  color: gray;
+  background-color: #e4eaec;
+  text-align: center;
+}
+
 .index {
   display: flex;
   flex-direction: column;
 }
 
 .timkiem {
-  margin-top: 30px;
+  margin-top: 8vh;
   margin-left: 60px;
 }
 
@@ -79,44 +84,40 @@ a.tag {
   border: solid;
   width: 100vh;
   text-align: left;
-  padding: 6px;
+  padding: 15px;
   border-radius: 100px;
   font-style: italic;
+  font-size: 35px;
 }
 
-p {
+p{
   text-align: center;
-  font-size: 24px;
+  font-size: 50px;
   font-weight: bold;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 .noidung {
   background-color: white;
   color:#4864e3;
   border-radius: 40px;
-  margin: 20px;
-  padding:20px;
+  margin: 0px 50px 60px 60px;
+  padding:40px;
 }
 
 .noidung li {
-  margin-bottom: 15px;
+  margin-bottom: 20px;
+  font-size: 45px;
 }
 
 .noidung a {
   text-decoration: none;
   color: #4864e3;
   font-style: italic;
-  font-size: 18px;
+  font-size: 45px;
 }
 
 .noidung a:hover {
   color: red;
   transition: all 0.5s;
 }
-
-.Menu:hover{
-  width: 220px;
-  transition: all 0.5s;
-}
-

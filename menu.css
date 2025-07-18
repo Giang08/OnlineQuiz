@@ -14,22 +14,14 @@ div.Menu {
   display: flex;
   flex-direction: column;
   background-color: #758ae9;
-  width: 200px;
+  width: 30vw;
   height: 100vh;
   transition: width 0.5s ease;
 }
 
-h1 {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  text-align: center;
-  font-style: italic;
-  font-weight: bold;
-  margin: 0px;
-  height: 25vh;
-  padding: 25px;
-  color: black;
-  text-shadow: 0px 0px 20px black;
-  font-size: 25px;
+.Menu:hover {
+  width: 35vw;
+  transition: all 0.5s;
 }
 
 .slot1 {
@@ -37,25 +29,25 @@ h1 {
   background: radial-gradient(circle at 50% 50%, #84a9ff, #f5f8ff);
 }
 
-a.tag {
-  display: flex;
-  align-items: center; /*giup can giua theo chieu ngang*/
-  justify-content: center; /*giup can giua theo chieu doc*/
-  font-size: 20px;
-  padding: 25px;
-  height: 25vh;
-  text-decoration: none;
-  color: gray;
-  background-color: #e4eaec;
+h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
   text-align: center;
+  font-style: italic;
+  font-weight: bold;
+  line-height: 13vh;
+  margin: 0px;
+  padding: 40px;
+  color: black;
+  text-shadow: 0px 0px 20px black;
+  font-size: 40px;
 }
 
 .active {
   display: flex;
   align-items: center; /*giup can giua theo chieu ngang*/
   justify-content: center; /*giup can giua theo chieu doc*/
-  font-size: 20px;
-  padding: 25px;
+  font-size: 40px;
+  padding: 40px;
   height: 25vh;
   text-decoration: none;
   color: #4864e3;
@@ -65,12 +57,31 @@ a.tag {
   font-style: italic;
 }
 
+a.tag {
+  display: flex;
+  align-items: center; /*giup can giua theo chieu ngang*/
+  justify-content: center; /*giup can giua theo chieu doc*/
+  font-size: 40px;
+  padding: 40px;
+  height: 25vh;
+  text-decoration: none;
+  color: gray;
+  background-color: #e4eaec;
+  text-align: center;
+}
+
+div.bangmon {
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+}
+
 div.cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
-  height: 38vh;
-  margin-left: 40px;
+  gap: 90px;
+  height: 40vh;
+  margin-left: 100px;
 }
 
 div.number {
@@ -80,10 +91,10 @@ div.number {
   background-color: white;
   color: #4864e3;
   border-radius: 50%;
-  width: 30px;
-  height: 30px;
-  line-height: 25px; /*căn giữa theo chiều dọc*/
-  font-size: 25px;
+  width: 80px;
+  height: 80px;
+  line-height: 65px; /*căn giữa theo chiều dọc*/
+  font-size: 45px;
   font-weight: bold;
 }
 
@@ -91,28 +102,18 @@ div.card {
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 110px;
+  max-width: 150px;
   width: 100%;
   background-color: #6366f1;
   border-radius: 30px;
   text-align: center;
-  padding: 10px;
+  padding: 30px;
   font-style: italic;
-}
-
-div.bangmon {
-  display: flex;
-  flex-direction: column;
-  margin-top: 30px;
-}
-
-.Menu:hover {
-  width: 220px;
-  transition: all 0.5s;
+  font-size: 42px;
 }
 
 p {
   text-align: center;
-  margin-top: 30px;
+  margin-top: 60px;
   color: white;
 }

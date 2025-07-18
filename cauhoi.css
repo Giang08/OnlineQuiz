@@ -17,8 +17,8 @@ h1{
     color: #1f48ff;
     font-weight: bold;
     font-style: italic;
-    font-size: 22px;
-    margin: 10px 0px 0px 10px; /*tren phai duoi trai*/
+    font-size: 50px;
+    margin: 0px 0px 0px 0px; /*tren phai duoi trai*/
 }
 
 .form{
@@ -27,16 +27,16 @@ h1{
     background-color: #e6e0ff;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
-    width: 400px;
+    width: 50vw;
     height: 100vh;
-    margin: 20px 50px 0px 50px;
-    padding: 10px;
+    margin: 40px 0px 0px 80px;
+    padding: 40px;
 }
 
 .form h1{
     text-align: center;
     font-style: normal;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
     color: #4864e3;
 }
 
@@ -44,26 +44,30 @@ h1{
     color: #4864e3;
     display: flex;
     flex-direction: column;
-    margin:0px 10px 20px 10px;
+    margin:0px 50px 40px 50px;
+}
+
+.nhap label{
+    font-size: 35px;
 }
 
 .nhap input{
     background-color: white;
     border: 1px solid #ccc;
-    border-radius: 8px;
-    padding: 5px;
+    border-radius: 10px;
+    padding: 10px;
     width: 100%;
 }
 
 button{
-    font-size: 20px;
+    font-size: 50px;
     font-weight: bold;
     text-align: center;
     border: none;
-    width: 300px;
-    margin: 0px 50px 0px 50px; 
+    width: 30vw;
+    margin: 0px 100px 0px 100px; 
     border-radius: 20px;
     background-color: #aab8fb;
     color: #4864e3;
-    padding: 4px;
+    padding: 10px;
 }
