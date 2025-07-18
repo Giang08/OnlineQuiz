@@ -1,0 +1,69 @@
+* {
+  font-family: "Crimson Text", serif;
+  box-sizing: border-box;
+  /*làm padding không ảnh hưởng đến input*/
+}
+
+body {
+  display: flex;
+  background: radial-gradient(circle at 50% 50%, #84a9ff, #f5f8ff);
+  margin: 0px; /*Xoa khoang trang toan trang*/
+  padding: 0px;
+  overflow: hidden;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #1f48ff;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 22px;
+    margin: 10px 0px 0px 10px; /*tren phai duoi trai*/
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    background-color: #e6e0ff;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    width: 400px;
+    height: 100vh;
+    margin: 20px 50px 0px 50px;
+    padding: 10px;
+}
+
+.form h1{
+    text-align: center;
+    font-style: normal;
+    margin-bottom: 10px;
+    color: #4864e3;
+}
+
+.nhap{
+    color: #4864e3;
+    display: flex;
+    flex-direction: column;
+    margin:0px 10px 20px 10px;
+}
+
+.nhap input{
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 5px;
+    width: 100%;
+}
+
+button{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    width: 300px;
+    margin: 0px 50px 0px 50px; 
+    border-radius: 20px;
+    background-color: #aab8fb;
+    color: #4864e3;
+    padding: 4px;
+}
