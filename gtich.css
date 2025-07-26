@@ -1,0 +1,54 @@
+* {
+  font-family: "Crimson Text", serif;
+}
+
+body{
+  padding: 0px;
+  margin: 0px;
+}
+
+.image {
+  display: none;
+  width: 700px;
+  max-height: 700px;
+  object-fit: contain; /* Giữ nguyên tỉ lệ ảnh, vừa khung không bị méo*/
+}
+
+.dethi {
+  display: flex;
+  gap: 40px;
+}
+
+#Khungde {
+  width: 700px; /* chỉnh theo kích thước ảnh hoặc khung của bạn */
+  margin: 30px 20px 0px 20px;
+  border: 2px solid #aaa;
+  border-radius: 8px;
+  padding: 8px;
+  background-color: #f9f9f9;
+}
+
+#Traloi {
+  margin-top: 30px;
+  width: 600px;
+  max-height: 700px;
+  overflow-y: scroll;
+  padding-right: 10px;
+}
+
+.ChonAns {
+  margin-bottom: 20px;
+  padding: 8px;
+  background-color: antiquewhite;
+  border-radius: 8px;
+}
+
+.button{
+  display: flex;
+  margin-top: 12px;
+  justify-content: space-between;
+}
+
+.button button{
+  padding: 8px 16px; /*left = right, top = bot*/
+}
